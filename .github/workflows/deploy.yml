@@ -1,10 +1,9 @@
 name: Deploy to GitHub Pages
 
-on: 'workflow_dispatch'
-  # disable auto-run for now
-  # push:
-  #   branches:
-  #     - master
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
