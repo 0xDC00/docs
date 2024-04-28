@@ -117,6 +117,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/0xdc00/agent',
               },
+              {
+                label: 'Ko-fi',
+                href: 'https://ko-fi.com/0xdc00',
+              },
             ],
           },
         ],
