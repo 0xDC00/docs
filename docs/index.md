@@ -16,6 +16,7 @@ Agent is a cross-platform script-based texthooker (powered by [Frida](https://fr
 
 - Cross-platform (Windows, macOS, and Linux)
 - Supports many game engines and emulators
+- Translation using DeepL, Google, Bing, and VietPhrase
 - Minimalistic GUI
 - Command-line support
 - Websocket and Clipboard copy
