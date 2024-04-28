@@ -110,6 +110,10 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'Scripts',
+                href: 'https://github.com/0xDC00/scripts',
+              },
+              {
                 label: 'GitHub',
                 href: 'https://github.com/0xdc00/agent',
               },
