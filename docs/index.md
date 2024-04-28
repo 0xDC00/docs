@@ -1,5 +1,9 @@
 ---
 sidebar_position: 1
+tags:
+  - introduction
+  - getting-started
+  - contributing
 ---
 
 # Introduction
@@ -20,6 +24,8 @@ Agent is a cross-platform script-based texthooker (powered by [Frida](https://fr
 
 ## Supported Targets
 
+Agent supports many different targets. Here are some of the targets it supports:
+
 - PC
   - Unreal Engine
   - Unity
@@ -27,7 +33,6 @@ Agent is a cross-platform script-based texthooker (powered by [Frida](https://fr
   - HCode
   - JS-based - Tyrano, RPG Maker
   - Flash
-  - more
 - Emulators
   - Switch (yuzu, [Ryujinx](https://ryujinx.org/))
   - PSP ([PPSSPP](https://www.ppsspp.org/))
@@ -37,7 +42,7 @@ Agent is a cross-platform script-based texthooker (powered by [Frida](https://fr
   - DOS ([DOSBox-X](https://dosbox-x.com/))
 - Android
 
-For a full list of supported games, take a look at the [scripts](https://github.com/0xDC00/scripts) repo.
+For a full list of supported games and engines, take a look at the [scripts](https://github.com/0xDC00/scripts) repo.
 
 ## Getting Started
 

@@ -41,11 +41,15 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/0xdc00/docs/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/0xdc00/docs/tree/master/',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
+        blog: false,
         // blog: {
         //   showReadingTime: true,
         //   // Please change this to your repo.
@@ -93,7 +97,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: '/docs/',
               },
             ],
           },
