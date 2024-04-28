@@ -2,46 +2,55 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Agent is a cross-platform script-based texthooker (powered by [Frida](https://frida.re/)).
+
+![](/img/showcase.gif)
+
+## Features
+
+- Cross-platform (Windows, macOS, and Linux)
+- Supports many game engines and emulators
+- Minimalistic GUI
+- Command-line support
+- Websocket and Clipboard copy
+- External Overlay
+- OCR support
+
+## Supported Targets
+
+- PC
+  - Unreal Engine
+  - Unity
+  - Mages
+  - HCode
+  - JS-based - Tyrano, RPG Maker
+  - Flash
+  - more
+- Emulators
+  - Switch (yuzu, [Ryujinx](https://ryujinx.org/))
+  - PSP ([PPSSPP](https://www.ppsspp.org/))
+  - PS3 ([RPCS3](https://rpcs3.net/))
+  - PSVita ([Vita3K](https://vita3k.org/))
+  - 3DS (Citra)
+  - DOS ([DOSBox-X](https://dosbox-x.com/))
+- Android
+
+For a full list of supported games, take a look at the [scripts](https://github.com/0xDC00/scripts) repo.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Download the [latest release](https://github.com/0xDC00/agent/releases/latest) for your platform, extract the zip file and run the application.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Watch the following quick start guide to get started:
 
-### What you'll need
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dFfuq2UnKjU?si=VIf9pX2euiJeTQvb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Contributing
 
-## Generate a new site
+If you have suggestions, need support, or want to contribute, please reach out to us [on Discord](https://discord.gg/sWeFsmJYJc).
 
-Generate a new Docusaurus site using the **classic template**.
+For script requests, please [open an issue](https://github.com/0xDC00/scripts/issues).
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+If you like this project, please consider [supporting it](https://ko-fi.com/0xdc00).
