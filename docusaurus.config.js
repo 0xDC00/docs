@@ -83,6 +83,11 @@ const config = {
             label: 'Docs',
           },
           {
+            href: 'https://github.com/0xDC00/agent/releases/latest',
+            label: 'Download',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/0xdc00/agent',
             label: 'GitHub',
             position: 'right',
