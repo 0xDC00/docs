@@ -45,7 +45,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/0xdc00/docs/tree/master/',
+            'https://github.com/0xdc00/docs/edit/master/',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },
