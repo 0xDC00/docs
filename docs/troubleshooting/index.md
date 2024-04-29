@@ -64,3 +64,13 @@ Apple will sometimes quarantine .app files that are not downloaded from the App 
 ```bash
 xattr -c /Applications/Agent.app
 ```
+
+### listen EADDRINUSE: address already in use
+
+```
+Error: listen EADDRINUSE: address already in use 127.0.0.1:9001
+```
+
+If you see this error, it means you either have two instances of agent open or you have Textractor with TextractorSender plugin. Since both program can't create a WebSocket server on the same port you get this error.
+
+You can resolve this issue by making sure you only have one instance of Agent running and by closing Textractor if it is opened.
