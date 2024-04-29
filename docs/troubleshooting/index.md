@@ -27,6 +27,17 @@ If all of these steps have been taken, and the game will still not hook text, pl
 
 ## Errors
 
+### Module <name_of_the_module> not found! 
+
+```
+Error: Error: Module ./libYuzu.js not found!
+```
+If you see this error, it means the script you attached couldn't find it's dependencies in the folder it's located in.
+
+To fix this error, please make sure that the script is in `<agent_path>\data\scripts\`.
+
+If a script is already in the scripts repository, you should just use the update button. 
+
 ### Unable to Find DLL
 
 ```
