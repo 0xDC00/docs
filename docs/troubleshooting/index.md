@@ -71,6 +71,6 @@ xattr -c /Applications/Agent.app
 Error: listen EADDRINUSE: address already in use 127.0.0.1:9001
 ```
 
-If you see this error, it means you either have two instances of agent open or you have Textractor with TextractorSender plugin. Since both program can't create a WebSocket server on the same port you get this error.
+If you see this error, it means you either have two instances of agent open, or you have Textractor with TextractorSender plugin running. Since both programs can't create a WebSocket server on the same port, you will get this error.
 
 You can resolve this issue by making sure you only have one instance of Agent running and by closing Textractor if it is opened.
