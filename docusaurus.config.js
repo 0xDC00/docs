@@ -88,52 +88,16 @@ const config = {
             position: 'left',
           },
           {
+            href: 'https://discord.gg/sWeFsmJYJc',
+            label: 'Discord',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/0xdc00/agent',
             label: 'GitHub',
             position: 'right',
           },
         ],
-      },
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Docs',
-                to: '/docs/',
-              },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
-              {
-                label: 'Discord',
-                href: 'https://discord.gg/sWeFsmJYJc',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Scripts',
-                href: 'https://github.com/0xDC00/scripts',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/0xdc00/agent',
-              },
-              {
-                label: 'Ko-fi',
-                href: 'https://ko-fi.com/0xdc00',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} Agent`,
       },
       prism: {
         theme: prismThemes.github,
