@@ -1,3 +1,9 @@
+---
+tags:
+  - guide
+  - cli
+---
+
 # Command Line
 
 You can launch Agent from the command line by running the `agent` executable from your terminal.

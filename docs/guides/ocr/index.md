@@ -1,3 +1,9 @@
+---
+tags:
+  - ocr
+  - guide
+---
+
 # OCR
 
 :::info
