@@ -38,3 +38,7 @@
 [data-theme='dark'] .navbar__link--active {
   color: white;
 }
+
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2.5rem;
+}
