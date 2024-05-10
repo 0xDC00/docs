@@ -2,7 +2,7 @@
 
 :::info
 
-Currently the OCR server is only supported on Windows (x64).
+Currently the OCR server is only supported on Windows (x64) and requires the Websocket setting to be enabled.
 
 :::
 
