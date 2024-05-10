@@ -51,7 +51,7 @@ Download the [latest release](https://github.com/0xDC00/agent/releases/latest) f
 
 Watch the following quick start guide to get started:
 
-<iframe width="720" height="405" src="https://www.youtube.com/embed/dFfuq2UnKjU?si=VIf9pX2euiJeTQvb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="720" height="405" src="https://www.youtube.com/embed/dFfuq2UnKjU?si=VIf9pX2euiJeTQvb" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
 ## Contributing
 
