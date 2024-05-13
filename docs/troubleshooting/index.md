@@ -110,4 +110,4 @@ If you see this error, it can mean that you are using a version of the game that
 Process not found
 ```
 
-It's a frida error, it usually happen on linux when you didn't run agent with sudo.
+This error is a Frida error, and it can happen on Linux if you didn't run agent with sudo.
