@@ -12,16 +12,27 @@ Before troubleshooting further, first restart both Agent and your emulator or ga
 
 ## Agent is Not Hooking Text
 
-If Agent is not hooking text for your game, please check the following:
+If Agent is not hooking text for your game, please double check the following:
 
-- Your scripts are up to date (update in the Agent UI).
-- You are using the [latest version](https://github.com/0xDC00/agent/releases/latest) of Agent.
-- If you're hooking an emulated game, ensure that you have attached to the emulator **before** starting the game.
-- Ensure you have the right game for the script you are using.
-  - PC Games - Check that your game matches the game the script was created for (e.g. if the script is for Steam, you got the game from Steam and not GOG).
-  - Emulators - Make sure the game's ID matches your game. For example, the script may be for the Japanese copy of the game, but your game is the US copy.
-- For emulated games, make sure you are using the correct version of the game specified by the script. For example, your game is 1.0.2 but the script is for 1.0.0.
-- You have selected the correct process and script for this game.
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs className="tabs" queryString="platform">
+  <TabItem value="emulators" label="Emulators">
+    - Your scripts are up to date (update in the Agent UI).
+    - You are using the [latest version](https://github.com/0xDC00/agent/releases/latest) of Agent.
+    - You have selected the correct process and script for this game.
+    - You have attached to the emulator after opening it and **before** launching a game.
+    - The script's game ID matches your game. For example, if the script is for the Japanese version of the game, you should use the Japanese version.
+    - You are using the correct version of the game specified by the script. For example, if the script is for version 1.0.2, you should use version 1.0.2 of the game.
+  </TabItem>
+  <TabItem value="pc" label="PC Games">
+    - Your scripts are up to date (update in the Agent UI).
+    - You are using the [latest version](https://github.com/0xDC00/agent/releases/latest) of Agent.
+    - You have selected the correct process and script for this game.
+    - Your game matches the game the script was created for (for example, if the script is for Steam, ensure that you have the game from Steam and not GOG).
+  </TabItem>
+</Tabs>
 
 If all of these steps have been taken, and the game will still not hook text, please reach out to us [on Discord](https://discord.gg/sWeFsmJYJc).
 
