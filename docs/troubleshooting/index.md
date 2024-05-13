@@ -103,3 +103,11 @@ Error: access violation accessing <address>
 ```
 
 If you see this error, it can mean that you are using a version of the game that the script doesn't support. If you are using an emulated game, ensure that your game version matches the script's version. If this is a PC game, then please report this issue [on Discord](https://discord.gg/sWeFsmJYJc) or [create an issue](https://github.com/0xDC00/scripts/issues/new).
+
+## Process not found
+
+```
+Process not found
+```
+
+This error is a Frida error, and it can happen on Linux if you didn't run agent with sudo.
